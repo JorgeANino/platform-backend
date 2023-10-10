@@ -16,7 +16,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         count = options["count"]
-        categories = ["Electronics", "Clothing", "Food"]
+        categories = [Product.ELECTRONICS, Product.CLOTHING, Product.FOOD]
 
         # Initialize faker
         fake = Faker()
