@@ -16,8 +16,6 @@ Including another URLconf
 from django.urls import path
 from django.conf.urls import url, include
 
-from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView
-
 
 urlpatterns = [
     url(
